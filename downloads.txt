@@ -1,0 +1,16 @@
+Chrome
+Firefox
+Lastpass
+Sublime 3
+Flycut
+Dropbox
+Grabbox
+Alfred
+Sparrow
+iTerm 2
+Creative Cloud
+BetterTouchTool
+SecondBar
+
+Homebrew
+RVM
