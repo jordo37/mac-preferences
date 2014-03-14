@@ -12,5 +12,9 @@ Creative Cloud
 BetterTouchTool
 SecondBar
 
+skype
+trello standalone app
+  using fluid
+
 Homebrew
 RVM
