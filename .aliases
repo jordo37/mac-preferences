@@ -1,0 +1,43 @@
+alias l="/bin/ls"
+alias ls="l -a"
+alias ll="ls -l"
+alias fail="tail -f"
+
+alias u="cd .."
+
+alias eda="vim ~/.aliases"
+alias edb="vim ~/.bash_profile"
+alias reload="source ~/.bash_profile"
+alias bradmin="ssh admin@10.0.1.8 -t '. ~/.bash_profile; su brad'"
+alias stevemin="ssh jordan@simba.local"
+alias work="ssh jordan@dev.perfectaudience.com -t 'tmux a'"
+alias gdiff="git diff --ignore-space-at-eol -b -w" 
+
+alias mate="/usr/bin/mate"
+
+alias cdp="cd ~/Sites/perfect-audience"
+alias cds="cd ~/Sites"
+alias cdd="cd ~/Downloads"
+alias cdk="cd ~/Desktop"
+alias cdowf="cd ~/projects/OWF/owf-3.5-themes"
+alias cdacheevos="cd ~/projects/acheevos/"
+
+alias duch="du -ch -d 1"
+
+alias chrome="open -a Google\ Chrome"
+
+alias showhidden="defaults write com.apple.finder AppleShowAllFiles -bool YES && killall Finder"
+alias hidehidden="defaults write com.apple.finder AppleShowAllFiles -bool NO && killall Finder"
+
+alias mvims="mvim -S ~/.vim_session"
+
+alias edv="vim ~/.vimrc"
+
+alias serve="python -m SimpleHTTPServer"
+
+alias startmongo="mongod --dbpath ~/projects/nowspots/mongo"
+alias startredis="redis-server /usr/local/etc/redis.conf"
+
+alias starwars="telnet towel.blinkenlights.nl"
+alias newrelic="heroku addons:open newrelic"
+alias logentries="heroku addons:open logentries" 
